@@ -1,4 +1,6 @@
-<head>
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,11 +10,11 @@
     </head>
     <body>
     <div class="container">
-    <div class="p-3 mb-2 bg-success text-white text-center"><h1>Tìm hiểu về docker</h1></div>
+    <div class="p-3 mb-2 bg-success text-white text-center"><strong>Tìm hiểu về docker</strong></div>
         <dl class="row">
             <hr>
             <dt class="col-sm-3">
-            <h2>Docker là gì?</h2></dt>
+            Docker là gì? </dt>
             <dd class="col-sm-9">Docker là một nền tảng để cung cấp cách để building, deploying và running ứng dụng một
                 cách dễ dàng trên nền tảng ảo hóa.
                 <br>
@@ -22,14 +24,14 @@
                 <hr>
             </dd>
 
-            <dt class="col-sm-3"><h3>Docker images</h3></dt>
+            <dt class="col-sm-3">Docker images</dt>
             <dd class="col-sm-9">
                 <p>Mỗi khi bạn muốn chạy ứng dụng Docker là thì bạn cần một cái image, cái image này có thể là HĐH
                     Centos hoặc Linux, đã cài sẵn các ứng dụng PHP, Nginx</p>
                 <hr>
             </dd>
 
-            <dt class="col-sm-3"><h4>Container là gì?</h4></dt>
+            <dt class="col-sm-3">Container là gì?</dt>
             <dd class="col-sm-9">Thế Container là gì, nó là một giải pháp để chuyển giao phần mềm một cách đáng tin cậy giữa các môi trường máy tính khác nhau bằng cách:
             <br>
             <li>
@@ -53,7 +55,7 @@
                 <hr>
             </dd>
 
-            <dt class="col-sm-3 text-truncate"><h5>Dùng docker có gì tốt?</h5></dt>
+            <dt class="col-sm-3 text-truncate">Dùng docker có gì tốt?</dt>
             <dd class="col-sm-9">
 
                 <li>
@@ -85,7 +87,7 @@
 
             </dd>
 
-            <dt class="col-sm-3"><h6>Docker khác vagrant ở đâu?</h6></dt>
+            <dt class="col-sm-3">Docker khác vagrant ở đâu?</dt>
             <dd class="col-sm-9">
 
                 <p>
@@ -185,3 +187,4 @@ services:                         <span class="text-white-50"># CÁC DỊCH VỤ
         </dl>
     </div>
     </body>
+</html>
